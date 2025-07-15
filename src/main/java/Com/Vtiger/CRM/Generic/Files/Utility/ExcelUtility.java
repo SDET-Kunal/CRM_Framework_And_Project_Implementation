@@ -22,16 +22,16 @@ public class ExcelUtility {
     }
 
     public void SetDataIntoExcel(String Sheet, int Row, int Cell,String Data) throws IOException {
-        FileInputStream Impdata = new FileInputStream("src/test/resources/DDT.xlsx");
+        FileInputStream Impdata = new FileInputStream("src/test/resources/Vtiger_Resource/DDT.xlsx");
         Workbook workbook= WorkbookFactory.create(Impdata);
         Sheet sheet=workbook.getSheet(Sheet);
         sheet.getRow(Row).createCell(Cell).setCellValue(Data);
-        FileOutputStream Expdata=new FileOutputStream("src/test/resources/DDT.xlsx");
+        FileOutputStream Expdata=new FileOutputStream("src/test/resources/Vtiger_Resource/DDT.xlsx");
         workbook.write(Expdata);
         workbook.close();
     }
     public  int getRowCount(String Sheet) throws IOException {
-        FileInputStream data = new FileInputStream("src/test/resources/DDT.xlsx");
+        FileInputStream data = new FileInputStream("src/test/resources/Vtiger_Resource/DDT.xlsx");
         Workbook workbook= WorkbookFactory.create(data);
         int sheet=workbook.getSheet(Sheet).getLastRowNum();
         workbook.close();

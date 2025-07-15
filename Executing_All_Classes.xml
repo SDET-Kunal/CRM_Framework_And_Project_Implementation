@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/kunal/IdeaProjects/Tek_Pyramid_Advance_Projects/pom.xml">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/kunal/IdeaProjects/Tek_Pyramid_Advance_Projects/src/test/java/Com/Vtiger/Organization/Test/Vtiger_Organization_Create_Organization_TC_01.java">
+        <classes>
+            <class name="Com.Vtiger.Organization.Test.Vtiger_Organization_Create_Organization_TC_01">
+                <methods>
+                    <include name="Create_Organization_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/kunal/IdeaProjects/Tek_Pyramid_Advance_Projects/src/test/java/Com/Vtiger/Organization/Test/Vtiger_Organization_Create_Organization_With_Industry_TC_02.java">
+        <classes>
+            <class name="Com.Vtiger.Organization.Test.Vtiger_Organization_Create_Organization_With_Industry_TC_02">
+                <methods>
+                    <include name="Create_Organization_With_Industry_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/kunal/IdeaProjects/Tek_Pyramid_Advance_Projects/src/test/java/Com/Vtiger/Organization/Test/Vtiger_Organization_Create_Organization_With_PhoneNumber_TC_03.java">
+        <classes>
+            <class name="Com.Vtiger.Organization.Test.Vtiger_Organization_Create_Organization_With_PhoneNumber_TC_03">
+                <methods>
+                    <include name="Create_Organization_With_PhoneNumber_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/kunal/IdeaProjects/Tek_Pyramid_Advance_Projects/src/test/java/Com/Vtiger/Contact/Test/Vtiger_Contact_Create_Contact_TC_04.java">
+        <classes>
+            <class name="Com.Vtiger.Contact.Test.Vtiger_Contact_Create_Contact_TC_04">
+                <methods>
+                    <include name="Contact_Create_Contact_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/kunal/IdeaProjects/Tek_Pyramid_Advance_Projects/src/test/java/Com/Vtiger/Contact/Test/Vtiger_Contact_Create_Contact_With_SupportDate_TC_05.java">
+        <classes>
+            <class name="Com.Vtiger.Contact.Test.Vtiger_Contact_Create_Contact_With_SupportDate_TC_05">
+                <methods>
+                    <include name="Create_Contact_With_SupportDate_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/kunal/IdeaProjects/Tek_Pyramid_Advance_Projects/src/test/java/Com/Vtiger/Contact/Test/Vtiger_Contact_Create_Contact_With_Organization_TC_06.java">
+        <classes>
+            <class name="Com.Vtiger.Contact.Test.Vtiger_Contact_Create_Contact_With_Organization_TC_06">
+                <methods>
+                    <include name="Create_Contact_With_Organization_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
